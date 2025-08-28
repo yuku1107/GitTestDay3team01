@@ -9,7 +9,7 @@ body {
     font-family: 'Nunito', sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, rgb(197, 102, 234) 0%, #764ba2 100%);
 }
 
 .container {
@@ -98,45 +98,45 @@ body {
     animation: float 6s ease-in-out infinite;
 }
 
-.pokemon-1 { 
-    top: 10%; 
-    left: 10%; 
-    animation-delay: 0s; 
+.pokemon-1 {
+    top: 10%;
+    left: 10%;
+    animation-delay: 0s;
 }
 
-.pokemon-2 { 
-    top: 20%; 
-    right: 15%; 
-    animation-delay: -1s; 
+.pokemon-2 {
+    top: 20%;
+    right: 15%;
+    animation-delay: -1s;
 }
 
-.pokemon-3 { 
-    bottom: 30%; 
-    left: 20%; 
-    animation-delay: -2s; 
+.pokemon-3 {
+    bottom: 30%;
+    left: 20%;
+    animation-delay: -2s;
 }
 
-.pokemon-4 { 
-    top: 60%; 
-    right: 10%; 
-    animation-delay: -3s; 
+.pokemon-4 {
+    top: 60%;
+    right: 10%;
+    animation-delay: -3s;
 }
 
-.pokemon-5 { 
-    bottom: 10%; 
-    right: 30%; 
-    animation-delay: -4s; 
+.pokemon-5 {
+    bottom: 10%;
+    right: 30%;
+    animation-delay: -4s;
 }
 
 @keyframes float {
-    0%, 100% { 
-        transform: translateY(0px) rotate(0deg); 
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
     }
-    33% { 
-        transform: translateY(-20px) rotate(5deg); 
+    33% {
+        transform: translateY(-20px) rotate(5deg);
     }
-    66% { 
-        transform: translateY(-10px) rotate(-5deg); 
+    66% {
+        transform: translateY(-10px) rotate(-5deg);
     }
 }
 
@@ -207,14 +207,14 @@ body {
 }
 
 @keyframes pulse {
-    0% { 
-        box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4); 
+    0% {
+        box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
     }
-    50% { 
-        box-shadow: 0 4px 25px rgba(255, 107, 107, 0.8); 
+    50% {
+        box-shadow: 0 4px 25px rgba(255, 107, 107, 0.8);
     }
-    100% { 
-        box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4); 
+    100% {
+        box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
     }
 }
 
@@ -262,11 +262,11 @@ body {
 }
 
 @keyframes bounce {
-    0%, 100% { 
-        transform: translateY(0); 
+    0%, 100% {
+        transform: translateY(0);
     }
-    50% { 
-        transform: translateY(-20px); 
+    50% {
+        transform: translateY(-20px);
     }
 }
 
@@ -469,28 +469,28 @@ body {
     .nav-links {
         display: none;
     }
-    
+
     .hero {
         flex-direction: column;
         text-align: center;
         height: auto;
         padding: 2rem 20px;
     }
-    
+
     .hero-title {
         font-size: 2.5rem;
     }
-    
+
     .hero-buttons {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .download-buttons {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .pokeball {
         width: 150px;
         height: 150px;
@@ -502,19 +502,19 @@ body {
     .hero-title {
         font-size: 2rem;
     }
-    
+
     .section-title {
         font-size: 2rem;
     }
-    
+
     .features-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .logo h1 {
         font-size: 1.5rem;
     }
-    
+
     .btn {
         padding: 0.8rem 1.5rem;
         font-size: 1rem;
